@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+<p>
+	<h1><%= @expression.expression %></h1>
+</p>
+<p>
+	<%= @expression.explanation %>
+</p>
+
+<%= link_to 'Edit', edit_expression_path(@expression), class: 'btn btn-default' %>
+<%= link_to 'List', expressions_path, class: 'btn btn-default' %>
